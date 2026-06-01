@@ -244,31 +244,20 @@ for i,which_strain in enumerate(strain_names):
 
     print('{} has growth rate: \n'.format(which_strain),mean,'+-',std)
         
-##ax[0,0].set_yticks([0,1])
-##ax[0,0].set_ylabel('OD')
-##ax[-1,0].set_xticks([time[0],time[-1]])
-##ax[-1,0].set_xlabel('Time (h)')
 ax.set_xlabel('Time (h)')
-##ax.set_ylabel('OD(t)')
 ax.set_ylabel('Biomass(t)')
 ax.legend(title='Strain',frameon=False)
 fig.tight_layout()
-fig.savefig('exponential_growth_rates.png',format='png',dpi=600)
-##plt.suptitle(filename)
 
 
 
 
-##ax2.boxplot(growth_rates,positions=[-1],zorder=0)
 ax2.legend(bbox_to_anchor=(1.01,1),frameon=False,title='Strain')
 ax2.set_xticks([])
 ax2.set_xlim(-0.2,1.5+0.2)
-##ax2.set_xlabel(r'$OD_0$')
 ax2.set_ylabel('Growth Rate '+r'$h^{-1}$')
 fig2.tight_layout()
-plt.savefig('monoculture-strain-growth-rates.svg',format='svg',transparent=True)
-plt.savefig('monoculture-strain-growth-rates.png',format='png',transparent=True)
-
+plt.close('all')
 
 
 with open('monoculture_growth_rates.dat','wb') as f:

@@ -210,13 +210,7 @@ for i in indices: #however many controls we have for YFP. The first 3 controls a
     saturation_time = time[where_kneepoint]
     saturation_OD = OD[where_kneepoint]
     K_yfp.append(saturation_OD)
-##    print(saturation_time,saturation_OD)
 
-    ### Figure A
-##    fig,ax = plt.subplots()
-##    ax.plot(time,OD)
-##    ax.scatter(saturation_time,saturation_OD,color='red')
-##    plt.show()
 
 '''
 For the YFP moncultures,
@@ -359,7 +353,7 @@ ax.plot(x_vect,x_vect,'k--')
 ax.legend(loc='best',frameon=False)
 ax.set_xlabel(r'$\Delta OD$ True')
 ax.set_ylabel(r'$\Delta OD$ Predicted')
-
+plt.close(fig)
     
 
 

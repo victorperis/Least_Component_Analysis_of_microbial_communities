@@ -234,8 +234,7 @@ ax.set_xlim(-0.05,0.2)
 ax.set_ylabel(r'$\Delta OD$ upon saturation')
 ax.legend(loc='best',frameon=False,
           title='Strain')
-plt.savefig('monoculture_yields.png',format='png',transparent=True)
-plt.savefig('monoculture_yields.svg',format='svg',transparent=True)
+plt.close('all')
 
 fig,ax = plt.subplots(figsize=(1.5,1.5))
 for i in range(2):
