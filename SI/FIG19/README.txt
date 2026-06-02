@@ -1,0 +1,1 @@
+run the "full_data_analysis" script in the parent directory, for the natural soil dataset, to get SI Fig.19
