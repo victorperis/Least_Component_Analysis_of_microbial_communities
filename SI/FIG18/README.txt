@@ -1,0 +1,1 @@
+run the script and it should produce panels B and C in SI Figure 18. For panel A, ensure to select the correct transfer in the data analysis section.
