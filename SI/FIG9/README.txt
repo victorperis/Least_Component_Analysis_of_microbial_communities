@@ -1,0 +1,1 @@
+Run script with desried natural dataset and it will produce a Figure like SI FIg. 9. For the soil dataset, it produces exactly SI FIG 9
