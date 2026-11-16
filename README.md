@@ -15,6 +15,10 @@ The python notebook "full_data_analysis.ipynb" contains the basic code necessary
 
 The notebook "plot_eigenvector.ipynb" takes a component from an analyzed dataset and plots it. For the datasets used in the manuscript, it plots components in the same format as in the figure panels (unlabeled, dark-edged bars for experimental datasets; labeled, no-edged bars for natural datasets).
 
+---
+
+The directory "paper_review/" includes small changes made to the manuscript during the review process. The main one is the bootstrapping of the eigenvectors in Fig.3 that produces the error bars shown in the final figure.
+
 --- 
 
 If you have any questions, feel free to contact me at: victor.peris@phys.ens.fr
